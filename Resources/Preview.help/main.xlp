@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+<header>
+  <title>Preview Help</title>
+</header>
+
+<chapter id="pictures" name="Looking at pictures" keywords="image photo zoom rotate slideshow sidebar">
+<p>Open a picture from File Viewer, or with <b>File › Open</b>. The other
+pictures in its folder are listed down the sidebar: click one, or press
+<kbd>↑</kbd> and <kbd>↓</kbd>, to go through them. Type in the search
+field to list only those whose names match.</p>
+
+<aside>
+  <h2>From the keyboard</h2>
+  <table>
+    <tr><td><kbd>⌘+</kbd> <kbd>⌘-</kbd></td><td>Zoom in, zoom out</td></tr>
+    <tr><td><kbd>⌘0</kbd></td><td>Fit the window</td></tr>
+    <tr><td><kbd>⌘1</kbd></td><td>Actual size</td></tr>
+    <tr><td><kbd>⌘L</kbd> <kbd>⌘R</kbd></td><td>Rotate left, right</td></tr>
+    <tr><td><kbd>⌘I</kbd></td><td>Info</td></tr>
+  </table>
+</aside>
+
+<p><b>Rotate</b> turns the picture a quarter. Preview saves it turned
+with <kbd>⌘S</kbd>, or asks when you close it or go to another picture.</p>
+
+<p><b>Info</b> shows the picture's size, format and colour, and, for a
+photo, when and with what camera it was taken.</p>
+
+<p>The <b>slideshow</b> shows the folder's pictures full screen, one every
+few seconds. <kbd>←</kbd> and <kbd>→</kbd> go back and on,
+<kbd>Space</kbd> pauses, <kbd>Esc</kbd> ends it.</p>
+</chapter>
+
+<chapter id="pdf" name="Reading a PDF" keywords="pdf search find copy text select pages">
+<p>A PDF's pages are listed down the sidebar; click one to go to it.
+Pages stay sharp at any zoom.</p>
+
+<p>To <b>search</b>, type in the search field. Every match is marked on the
+pages, and the status bar says how many there are. The arrows beside the
+field, or <kbd>⌘G</kbd> and <kbd>⇧⌘G</kbd>, go from one to the next.</p>
+
+<p>To <b>copy text</b>, drag across it, then press <kbd>⌘C</kbd>, or click
+it with the right button and choose <b>Copy</b>. <b>Search for</b> in the
+same menu looks for what you selected.</p>
+</chapter>
+
+<chapter id="export" name="Saving a copy" keywords="export save png jpeg tiff pdf size">
+<p><b>File › Export</b> saves a copy as PNG, JPEG, TIFF or PDF, full size
+or half size. For JPEG, the <b>Quality</b> slider trades size for detail.
+The size the copy will be is shown before you save it.</p>
+
+<p>For a PDF, PNG, JPEG and TIFF save the page you are looking at as a
+picture; PDF saves the whole document.</p>
+</chapter>
+</document>
