@@ -1,0 +1,58 @@
+{
+  ApplicationName = Preview;
+  ApplicationDescription = "Shows pictures and PDFs";
+  ApplicationRelease = "27.0";
+  Authors = ("Joseph Maloney <pkgdemonteam@gmail.com>");
+  URL = "License: BSD 2-Clause";
+  Copyright = "Copyright (C) 2026 Joseph Maloney";
+  NSHumanReadableCopyright = "Copyright (C) 2026 Joseph Maloney";
+  NSPrincipalClass = NSApplication;
+  NSIcon = "Preview.png";
+  CFBundleIconFile = "Preview.png";
+  NSExecutable = Preview;
+  CFBundleIdentifier = "org.nextbsd.Preview";
+  CFBundleName = Preview;
+  CFBundleDisplayName = Preview;
+  CFBundleShortVersionString = "27.0";
+  CFBundleVersion = "27.0";
+  /* What Preview shows, as GNUstep's workspace reads it: files of these
+     extensions open in Preview from File Viewer (after make_services). */
+  NSTypes = (
+    {
+      NSName = "PNG image";
+      NSHumanReadableName = "PNG image";
+      NSUnixExtensions = (png);
+      NSRole = Viewer;
+    },
+    {
+      NSName = "JPEG image";
+      NSHumanReadableName = "JPEG image";
+      NSUnixExtensions = (jpg, jpeg, jpe);
+      NSRole = Viewer;
+    },
+    {
+      NSName = "TIFF image";
+      NSHumanReadableName = "TIFF image";
+      NSUnixExtensions = (tif, tiff);
+      NSRole = Viewer;
+    },
+    {
+      NSName = "GIF image";
+      NSHumanReadableName = "GIF image";
+      NSUnixExtensions = (gif);
+      NSRole = Viewer;
+    },
+    {
+      NSName = "BMP image";
+      NSHumanReadableName = "BMP image";
+      NSUnixExtensions = (bmp);
+      NSRole = Viewer;
+    },
+    {
+      NSName = "PDF document";
+      NSHumanReadableName = "PDF document";
+      NSUnixExtensions = (pdf);
+      NSRole = Viewer;
+    }
+  );
+}
